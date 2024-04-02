@@ -1,0 +1,37 @@
+$color-white: #ffffff;
+$color-black: #000000;
+
+$color-main-tint-04: #ccf1fa;
+$color-main-tint-03: #99e3f6;
+$color-main-tint-02: #66d5f1;
+$color-main-tint-01: #33c7ed;
+$color-main: #00B9E8;
+$color-main-shade-01: #0094ba;
+$color-main-shade-02: #006f8b;
+$color-main-shade-03: #004a5d;
+$color-main-shade-04: #00252e;
+
+$color-gray-tint-04: #dadada;
+$color-gray-tint-03: #b4b4b4;
+$color-gray-tint-02: #8f8f8f;
+$color-gray-tint-01: #696969;
+$color-gray: #444444;
+$color-gray-shade-01: #363636;
+$color-gray-shade-02: #292929;
+$color-gray-shade-03: #1b1b1b;
+$color-gray-shade-04: #0e0e0e;
+
+$color-gray-rgb: rgb(68, 68, 68);
+$color-gray-shade-01-rgb: rgb(54, 54, 54);
+
+$color-success: #4cbb17;
+$color-success-tint-01: #94d674;
+
+$color-warning: #ffd43b;
+$color-warning-tint-01: #ffe176;
+
+$color-critical: #e23d28;
+$color-critical-tint-01: #e86453;
+
+$shadow: 0.3rem 0.2rem 5px rgba($color-gray-rgb, 0.2);
+$shadow-active: 0.2rem 0.1rem 3px rgba($color-gray-rgb, 0.3);

@@ -1,0 +1,20 @@
+{
+    "views": {
+        "home": {},
+        "about": {
+            "title": "About Page"
+        },
+        "page-not-found": {
+            "text": "Page Not Found"
+        }
+    },
+    "links": {
+        "home": "Home",
+        "about": "About"
+    },
+    "buttons": {
+        "change": "Change",
+        "loading": "Loading...",
+        "delete": "Delete"
+    }
+}

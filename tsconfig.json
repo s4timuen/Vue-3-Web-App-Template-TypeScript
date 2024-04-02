@@ -13,8 +13,12 @@
     "useDefineForClassFields": true,
     "sourceMap": true,
     "baseUrl": ".",
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
     "types": [
-      "webpack-env"
+      "webpack-env",
+      "vitest/globals"
     ],
     "paths": {
       "@/*": [
