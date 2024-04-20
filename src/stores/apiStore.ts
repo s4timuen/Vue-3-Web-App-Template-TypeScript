@@ -27,7 +27,7 @@ const useApiStore: StoreDefinition<
     ApiStoreGetters,
     ApiStoreActions> = defineStore('apiStore', {
         state: (): ApiStoreState => ({
-            apiKey: 'yI14Ba/rboMpbjrPvOsjyw==4ng7q3RSwukth6Nd',
+            apiKey: '',
             baseUrl: 'https://api.api-ninjas.com/v1/',
             loremApi: {
                 loremIpsumUrl: 'loremipsum?max_length=',
