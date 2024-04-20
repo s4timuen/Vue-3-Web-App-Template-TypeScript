@@ -19,7 +19,7 @@ const useTemplateStore: StoreDefinition<
     TemplateStoreState,
     TemplateStoreGetters,
     TemplateStoreActions> = defineStore('templateStore', {
-        state: () => ({
+        state: (): TemplateStoreState => ({
             title: 'Vue Web-App',
             description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, delectus nam corrupti quae vel quas earum sit itaque tenetur eum.'
         }),

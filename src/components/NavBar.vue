@@ -19,7 +19,7 @@ import { Ref, ref } from 'vue';
 import { Composer, useI18n } from 'vue-i18n';
 
 const i18n: Composer = useI18n();
-const root: Ref<null> = ref(null);
+const root: Ref<HTMLElement | null> = ref(null);
 </script>
 
 <style lang="scss">

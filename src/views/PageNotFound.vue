@@ -7,7 +7,7 @@
 <script setup lang="ts">
 import { Ref, ref } from 'vue';
 
-const root: Ref<null> = ref(null);
+const root: Ref<HTMLElement | null> = ref(null);
 </script>
 
 <style scoped lang="scss">

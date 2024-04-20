@@ -9,7 +9,7 @@ import { Ref, ref } from 'vue';
 import { v4 as uuid } from 'uuid';
 import TemplateComponent from '@/components/TemplateComponent.vue';
 
-const root: Ref<null> = ref(null);
+const root: Ref<HTMLElement | null> = ref(null);
 
 function logId(id: string): void {
     console.log(`ID: ${id}`);
